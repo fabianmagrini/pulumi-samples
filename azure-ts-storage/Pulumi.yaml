@@ -1,0 +1,3 @@
+name: azure-ts-storage
+runtime: nodejs
+description: A minimal Azure TypeScript Pulumi program
