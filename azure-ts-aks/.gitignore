@@ -1,0 +1,8 @@
+/bin/
+/node_modules/
+key.rsa
+key.rsa.pub
+package-lock.json
+Pulumi.dev.yaml
+
+
