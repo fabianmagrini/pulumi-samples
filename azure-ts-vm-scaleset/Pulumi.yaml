@@ -1,0 +1,3 @@
+name: azure-ts-vm-scaleset
+runtime: nodejs
+description: Basic example of nginx deployed in Azure VM Scale Sets
