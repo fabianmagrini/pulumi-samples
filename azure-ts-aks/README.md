@@ -30,7 +30,7 @@ Set the azure location in which to run the deploy:
 # This generates a passphrase with 128 bits of entropy
 clusterPassword=$(dd if=/dev/urandom bs=16 count=1 2>/dev/null | base64 | sed 's/=//g')
 pulumi config set azure:environment public
-pulumi config set azure:location australiaeast
+pulumi config set azure:location "Australia East"
 pulumi config set password --secret $clusterPassword
 ssh-keygen -t rsa -f key.rsa
 pulumi config set sshPublicKey < key.rsa.pub
